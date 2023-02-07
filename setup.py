@@ -23,6 +23,7 @@ setup(
     entry_points={
         "console_scripts": [
             "tljh-config = tljh.config:main",
+            "bootstrap = bootstrap.bootstrap:main",
         ]
     },
 )
